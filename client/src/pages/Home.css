@@ -1,0 +1,121 @@
+body{
+  background-color:#f7e7da;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding-top: 8rem;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bigpic {
+  height: 50%;
+  width: 50%;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.array img:hover {
+  transform: scale(1.1);
+}
+
+.array1 {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  width: 100%;
+}
+
+.array {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.text-header{
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  font-size: medium;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.text{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: medium;
+}
+
+.undertext{
+  font-size: smaller;
+}
+
+.worksize{
+  display: flex;
+  border-right: 3px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 40%;
+}
+
+.picpart{
+  display: flex;
+  flex-direction: column;
+}
+
+.textpart{
+  display: flex;
+  flex-direction: column;
+}
+
+.profilepicture {
+  height: 30%;
+  width: 30%;
+}
+
+.aboutme {
+  width: 75%;
+  line-height: 300%;
+}
+
+.underlink {
+text-decoration: none;
+color: black;
+}
+
+iframe:hover {
+  transform: scale(1.1);
+}

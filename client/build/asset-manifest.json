@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-main/static/css/main.135e7ebf.css",
+    "main.js": "/react-portfolio-main/static/js/main.f6051640.js",
+    "static/js/787.44f62004.chunk.js": "/react-portfolio-main/static/js/787.44f62004.chunk.js",
+    "static/media/parksandpages.png": "/react-portfolio-main/static/media/parksandpages.727c2927250abc50c29c.png",
+    "static/media/tarotimg.png": "/react-portfolio-main/static/media/tarotimg.feb35ca6d2c60e0706af.png",
+    "static/media/profilepic.jpeg": "/react-portfolio-main/static/media/profilepic.bae13bd8b568003c8003.jpeg",
+    "static/media/resumePDF.pdf": "/react-portfolio-main/static/media/resumePDF.4627aceebb249735151d.pdf",
+    "static/media/weatherpic.png": "/react-portfolio-main/static/media/weatherpic.2a5060465d9fef6726c3.png",
+    "static/media/playlistpic.png": "/react-portfolio-main/static/media/playlistpic.261358db7a35791a267e.png",
+    "static/media/usfbadge.png": "/react-portfolio-main/static/media/usfbadge.84d7e14b97bd4cdaafa1.png",
+    "static/media/badgepicnobg.png": "/react-portfolio-main/static/media/badgepicnobg.37b92deb0fb495cc35e5.png",
+    "index.html": "/react-portfolio-main/index.html",
+    "main.135e7ebf.css.map": "/react-portfolio-main/static/css/main.135e7ebf.css.map",
+    "main.f6051640.js.map": "/react-portfolio-main/static/js/main.f6051640.js.map",
+    "787.44f62004.chunk.js.map": "/react-portfolio-main/static/js/787.44f62004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135e7ebf.css",
+    "static/js/main.f6051640.js"
+  ]
+}
