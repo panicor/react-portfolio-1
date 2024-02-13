@@ -36,7 +36,7 @@ function Projects() {
           <div className="row">
             <div className="bigpic">
               <a
-                href="https://desolate-garden-53776.herokuapp.com/"
+                href="https://panicor.github.io/react-portfolio-1/#/"
                 target="_blank"
                 rel="noreferrer"
               >
