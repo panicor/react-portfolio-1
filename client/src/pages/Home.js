@@ -36,7 +36,7 @@ function Projects() {
           <div className="row">
             <div className="bigpic">
               <a
-                href="https://panicor.github.io/react-portfolio-1/#/"
+                href="https://tarotteacher-fe.onrender.com"
                 target="_blank"
                 rel="noreferrer"
               >
