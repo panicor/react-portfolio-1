@@ -1,87 +1,86 @@
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-bar {
-    background-color: #1a237e;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: white; /* Adjust text color for better contrast */
-    padding: 10px 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
-    z-index: 100; /* Ensure it stays above other content */
-
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white; /* Adjust text color for better contrast */
+  padding: 10px 20px;
+  z-index: 100; /* Ensure it stays above other content */
 }
 
 .nav-brand {
-    color: white;
-    font-size: 1.75rem !important;
+  color: white;
+  font-size: 1.75rem !important;
 }
 
 .nav-brand:hover {
-    color: #bdbdbd;
+  color: #bdbdbd;
 }
 
 .nav-name {
-    color: white;
-    font-size: 1.75rem !important;
+  color: white;
+  font-size: 1.75rem !important;
 }
 
 .nav-name:hover {
-    transform: scale(1.1);
-        text-decoration: none;
-        color: white;
-
+  transform: scale(1.1);
+  text-decoration: none;
 }
 
-
 .nav-link-group {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-links {
-    margin-right: 35px;
-    color: white;
-    font-size: 1.1rem !important;
+  margin-right: 35px;
+  color: white;
+  font-size: 1.1rem !important;
 }
 
-
 .nav-links:hover {
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    border-radius: 2px;
-    padding: 2px;
+  text-decoration: underline;
+  color: whitesmoke;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .badgeimg {
-    width: 80px;
-    height: 80px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+  width: 80px;
+  height: 80px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
+.menu-icon {
+  color: #ffff; /* Change the color of the icon */
+  font-size: 30px; /* Adjust the default size of the icon */
+  padding-right: 10px; /* Add smooth transition effect */
+}
+.menu-icon:hover {
+  transform: scale(1.1);
+}
 
 .badgeimg:hover {
-    transform: scale(1.1);
-  }
+  transform: scale(1.1);
+}
 
 @media only screen and (max-width: 845px) {
-    .nav-link-group {
-        display: flex;
-        justify-content: center;
-    }
-
-    .nav-items {
-        margin: auto;
-    }
-
-    .nav-links {
-        font-size: 1rem !important;
-    }
+  .nav-link-group {
+    display: flex;
+    justify-content: center;
   }
 
-  
+  .nav-items {
+    margin: auto;
+  }
+
+  .nav-links {
+    font-size: 1rem !important;
+  }
+}

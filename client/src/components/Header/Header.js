@@ -7,6 +7,8 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import ucfbadge from "../../assets/badgepicnobg.png";
 import usfbadge from "../../assets/usfbadge.png";
@@ -39,7 +41,7 @@ const Header = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar className="nav-link-group">
           <Nav navbar>
-            <NavItem className="nav-items">
+            {isOpen && <NavItem className="nav-items">
               <Link to="/" className="nav-links">
                 Home
               </Link>
@@ -49,7 +51,8 @@ const Header = (props) => {
               <Link to="/resume" className="nav-links">
                 Resume
               </Link>
-            </NavItem>
+            </NavItem>}
+            <FontAwesomeIcon icon={faBars} onClick={toggle} className="menu-icon" />
           </Nav>
         </Collapse>
       </Navbar>

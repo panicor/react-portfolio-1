@@ -1,12 +1,12 @@
 
 
  footer {
-    background-color: #1a237e;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;  
     padding: 20px 0px 10px 0px;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .links {
@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    color: #26a69a;
 }
 
 .icon {
@@ -43,16 +42,14 @@ li {
 }
 
 .footerlink {
-
     color: white;
 }
 
 .footerlink:hover {
-    text-decoration: none;
-    background-color: white;
-    color: black;
+    text-decoration: underline;
+    color:whitesmoke;
     border-radius: 2px;
-    padding: 2px;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .container {
@@ -66,4 +63,9 @@ li {
     justify-content: center;
 }
 
-
+@media only screen and (max-width: 6000px) {
+    .footer-links {
+      flex-direction: column; /* Stack links vertically */
+      align-items: center; /* Center align links */
+}
+}
