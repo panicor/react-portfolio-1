@@ -9,6 +9,12 @@ body{
 }
 
 .objHeight{
-    height: 100%;
+    height: 90vh;
     width: 100%; 
 }
+
+@media only screen and (min-width: 768px) {
+    .height {
+      padding-top: 10rem; /* Increase padding for larger screens */
+    }
+  }

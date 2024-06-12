@@ -84,3 +84,91 @@ a {
     font-size: 1rem !important;
   }
 }
+
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white; /* Adjust text color for better contrast */
+  padding: 10px 20px;
+  z-index: 100; /* Ensure it stays above other content */
+}
+
+.nav-brand {
+  color: white;
+  font-size: 1.75rem !important;
+}
+
+.nav-brand:hover {
+  color: #bdbdbd;
+}
+
+.nav-name {
+  color: white;
+  font-size: 1.75rem !important;
+}
+
+.nav-name:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
+.nav-link-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  margin-right: 20px; /* Reduce margin between menu items */
+  color: white;
+  font-size: 1.2rem !important; /* Increase font size for better readability */
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.badgeimg {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.menu-icon {
+  color: #ffff; /* Change the color of the icon */
+  font-size: 35px; /* Increase size of the hamburger icon */
+  padding-right: 10px; /* Add smooth transition effect */
+}
+.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+.badgeimg:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 845px) {
+  .nav-link-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-items {
+    margin: auto;
+  }
+
+  .nav-links {
+    font-size: 1.1rem !important; /* Increase font size for mobile screens */
+  }
+}

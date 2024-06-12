@@ -1,71 +1,70 @@
 
-
- footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;  
-    padding: 20px 0px 10px 0px;
-    background-color: rgba(0, 0, 0, .4);
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+  padding: 20px 0px 10px 0px;
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .icon {
-    display: flex;
-    align-items: center;
-    color: white;
-    width: 75%;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 75%;
 }
 
 .icon:hover {
-    transform: scale(1.2);
-    color: white !important;
+  transform: scale(1.2);
+  color: white !important;
 }
 
 .text {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    padding-right: 10px;
-    color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  color: white;
 }
 
 li {
-    list-style-type: none;
-    padding-right: 10px;
+  list-style-type: none;
+  padding-right: 10px;
 }
 
 .footerlink {
-    color: white;
+  color: white;
 }
 
 .footerlink:hover {
-    text-decoration: underline;
-    color:whitesmoke;
-    border-radius: 2px;
-    background-color: rgba(0, 0, 0, .3);
+  text-decoration: underline;
+  color:whitesmoke;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 
 .icon-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 6000px) {
-    .footer-links {
-      flex-direction: column; /* Stack links vertically */
-      align-items: center; /* Center align links */
+  .footer-links {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center align links */
 }
 }

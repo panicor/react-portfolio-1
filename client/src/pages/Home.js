@@ -37,7 +37,7 @@ function Projects() {
 
   return (
     <div className="container">
-      <h1 className="name">Rachel Panico</h1>
+      <h1 className="name">Cash Panico</h1>
       <div className="second about" id="about-me">
         <div className="array1">
           <div className="profilepicture">

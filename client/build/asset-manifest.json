@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio-1/static/css/main.b27e564f.css",
-    "main.js": "/react-portfolio-1/static/js/main.9ef29680.js",
+    "main.css": "/react-portfolio-1/static/css/main.3eaaf8d1.css",
+    "main.js": "/react-portfolio-1/static/js/main.0aba0e6a.js",
     "static/js/787.229e6f2a.chunk.js": "/react-portfolio-1/static/js/787.229e6f2a.chunk.js",
     "static/media/parksandpages.png": "/react-portfolio-1/static/media/parksandpages.727c2927250abc50c29c.png",
     "static/media/mountains.jpg": "/react-portfolio-1/static/media/mountains.f6f3131afd5e3cf93509.jpg",
     "static/media/tarotimg.png": "/react-portfolio-1/static/media/tarotimg.feb35ca6d2c60e0706af.png",
     "static/media/profilepic.jpeg": "/react-portfolio-1/static/media/profilepic.bae13bd8b568003c8003.jpeg",
-    "static/media/resumePDF.pdf": "/react-portfolio-1/static/media/resumePDF.2d85444fb93e9dcf0d6e.pdf",
+    "static/media/resumePDF.pdf": "/react-portfolio-1/static/media/resumePDF.68052120db64097ca8bf.pdf",
     "static/media/weatherpic.png": "/react-portfolio-1/static/media/weatherpic.2a5060465d9fef6726c3.png",
     "static/media/playlistpic.png": "/react-portfolio-1/static/media/playlistpic.261358db7a35791a267e.png",
     "static/media/usfbadge.png": "/react-portfolio-1/static/media/usfbadge.84d7e14b97bd4cdaafa1.png",
     "static/media/badgepicnobg.png": "/react-portfolio-1/static/media/badgepicnobg.37b92deb0fb495cc35e5.png",
     "index.html": "/react-portfolio-1/index.html",
-    "main.b27e564f.css.map": "/react-portfolio-1/static/css/main.b27e564f.css.map",
-    "main.9ef29680.js.map": "/react-portfolio-1/static/js/main.9ef29680.js.map",
+    "main.3eaaf8d1.css.map": "/react-portfolio-1/static/css/main.3eaaf8d1.css.map",
+    "main.0aba0e6a.js.map": "/react-portfolio-1/static/js/main.0aba0e6a.js.map",
     "787.229e6f2a.chunk.js.map": "/react-portfolio-1/static/js/787.229e6f2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b27e564f.css",
-    "static/js/main.9ef29680.js"
+    "static/css/main.3eaaf8d1.css",
+    "static/js/main.0aba0e6a.js"
   ]
 }

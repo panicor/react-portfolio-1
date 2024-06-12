@@ -4,46 +4,52 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <div className="rowrow">
-        <div className="col-sm-12 col-md-8 mt-5">
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="col mb-4">
           <form
             action="mailto:rachelapanico@gmail.com"
             method="POST"
             name="myForm"
           >
-            <div>
-              <label htmlFor="name">Name:</label>
+            <div className="mb-3">
+              <label htmlFor="name" className="form-label">
+                Name:
+              </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="name"
                 placeholder="Name"
                 name="name"
                 required
               />
             </div>
-            <div>
-              <label htmlFor="emailAddress">Email address:</label>
+            <div className="mb-3">
+              <label htmlFor="emailAddress" className="form-label">
+                Email address:
+              </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="emailAddress"
                 placeholder="email@example.com"
                 name="email"
                 required
               />
             </div>
-            <div class="form-group">
-              <label htmlFor="textArea">Message:</label>
+            <div className="mb-3">
+              <label htmlFor="textArea" className="form-label">
+                Message:
+              </label>
               <textarea
-                class="form-control"
+                className="form-control"
                 id="textArea"
                 rows="8"
                 name="message"
                 required
               ></textarea>
             </div>
-            <button type="submit" value="Submit">
+            <button type="submit" value="Submit" className="btn btn-primary">
               Submit
             </button>
           </form>
