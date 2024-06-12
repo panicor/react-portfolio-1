@@ -27,11 +27,11 @@ const Footer = () => {
             <li>
               {" "}
               <a className="footerlink"
-                href="mailto:rachelapanico@gmail.com"
+                href="mailto:cashpanico@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                rachelapanico@gmail.com
+                cashpanico@gmail.com
               </a>{" "}
             </li>
             <li>

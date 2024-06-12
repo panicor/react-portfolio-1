@@ -7,7 +7,7 @@ function Contact() {
       <div className="row row-cols-1 row-cols-md-2 g-4">
         <div className="col mb-4">
           <form
-            action="mailto:rachelapanico@gmail.com"
+            action="mailto:cashpanico@gmail.com"
             method="POST"
             name="myForm"
           >
