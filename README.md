@@ -31,7 +31,7 @@
 
   [Deployed portfolio](https://panicor.github.io/reactPortfolio/)
 
-  rachelapanico@gmail.com
+  cashpanico@gmail.com
   
 
 
